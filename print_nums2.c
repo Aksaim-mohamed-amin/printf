@@ -13,6 +13,9 @@ int printHexLower(va_list args)
 	char buffer[32];
 	int index = 0, digits = 0, i, remainder;
 
+	if (number == 0)
+		return (_putchar('0'));
+
 	while (number > 0)
 	{
 		remainder = number % 16;
@@ -45,6 +48,9 @@ int printHexUpper(va_list args)
 	unsigned int number = va_arg(args, unsigned int);
 	char buffer[32];
 	int index = 0, digits = 0, i, remainder;
+
+	if (number == 0)
+		return (_putchar('0'));
 
 	while (number > 0)
 	{
