@@ -21,7 +21,7 @@ int parser(const char *format, PrintFunction printFunctions[], va_list args)
 		{
 			int specifier_found = 0;
 
-			for (j = 0; j < 11; j++)
+			for (j = 0; j < 12; j++)
 			{
 				if (format[i + 1] == printFunctions[j].specifier)
 				{

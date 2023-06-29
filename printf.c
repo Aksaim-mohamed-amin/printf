@@ -15,7 +15,8 @@ int _printf(const char *format, ...)
 		{'c', printChar}, {'s', printString}, {'i', printDigit},
 		{'d', printDigit}, {'b', printBinary}, {'u', printUnsigned},
 		{'o', printOctal}, {'x', printHexLower}, {'X', printHexUpper},
-		{'r', printReverse}, {'R', printRoot13}
+		{'r', printReverse}, {'R', printRoot13},
+		{'S', printCustomString}
 	};
 
 	if (format == NULL)

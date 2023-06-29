@@ -35,6 +35,7 @@ int printHexLower(va_list args);
 int printHexUpper(va_list args);
 int printReverse(va_list args);
 int printRoot13(va_list args);
+int printCustomString(va_list args);
 
 /* Help Functions */
 int _putchar(char c);
