@@ -17,7 +17,7 @@ int printCustomString(va_list args)
 
 	for (i = 0; str[i]; i++)
 	{
-		if (str[i] >= 32)
+		if (str[i] >= 32 && str[i] < 127)
 			count += _putchar(str[i]);
 		else if (str[i] > 14)
 			count += _printf("\\x%X", str[i]);
