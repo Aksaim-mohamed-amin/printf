@@ -8,4 +8,4 @@ The printf function is a widely used function in the C programming language that
 
 Authors  
 
-This project was implemented by Your Mohamed amin  aksaim and Salaheddine aksaim at ALX SE program.
+This project was implemented by Mohamed amin  aksaim and Salaheddine aksaim at ALX SE program.
